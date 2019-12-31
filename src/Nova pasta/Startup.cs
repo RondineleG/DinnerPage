@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Components.Builder;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace DinnerPage
+namespace Nova_pasta
 {
     public class Startup
     {
@@ -11,7 +11,7 @@ namespace DinnerPage
 
         public void Configure(IComponentsApplicationBuilder app)
         {
-            app.AddComponent<App>("index");
+            app.AddComponent<App>("app");
         }
     }
 }
